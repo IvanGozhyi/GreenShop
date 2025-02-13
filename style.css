@@ -24,6 +24,7 @@ input{
     left: 100px;
     border: 1px solid #EAEAEA;
     margin-left: 800px;
+    margin-right: 800px;
     border-radius: 5px 5px 5px 5px;
 }
 .footer{
@@ -46,6 +47,7 @@ input{
     top: 511px;
     left: 100px;
     margin-left: 800px;
+    margin-right: 800px;
     border-radius: 5px 5px 5px 5px;
     background: #EAEAEA;
     font-family: Cera Pro;
@@ -56,6 +58,7 @@ input{
     top: 511px;
     left: 100px;
     margin-left: 800px;
+    margin-right: 800px;
     border-radius: 5px 5px 5px 5px;
     background: #EAEAEA;
     font-family: Cera Pro;
