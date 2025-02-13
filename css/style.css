@@ -63,4 +63,10 @@ input{
     background: #EAEAEA;
     font-family: Cera Pro;
 }
+.tittle2{
+    font-family:'Cera Pro';
+    text-align: center;
+    font-size: larger;
+    margin-top: 300px;
+}
 
