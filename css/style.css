@@ -69,4 +69,104 @@ input{
     font-size: larger;
     margin-top: 300px;
 }
+.GreenShop {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+}
+.nav {
+    display: flex;
+    gap: 20px;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.login {
+    background-color: green;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.Banner {
+    width: 1200px;
+    height: 450px;
+    top: 95px;
+    left: 120px;
+    margin-left: 400px;
+    margin-right: 400px;
+    display: inline-block;
+    position : absolute;
 
+
+}
+.hero-text {
+    max-width: 50%;
+}
+.Banner h1 {
+    position: absolute;
+    width: 530px;
+    height: 140px;
+    left: 40px;
+    top: 91px;
+}
+.Banner h1 span {
+    color: green;
+}
+
+.hero img {
+    width: 300px;
+}
+.Vazon_1{
+    position: absolute;
+    width: 507px;
+    height: 450px;
+    left: 693px;
+    top: 0px;
+}
+.Vazon_2{
+    position: absolute;
+    width: 135px;
+    height: 135px;
+    left: 748px;
+    top: 298px;
+    margin-right: 125px;
+}
+.description{
+    position: absolute;
+    width: 557px;
+    height: 45px;
+    left: 43px;
+    top: 236px;
+}
+.textik{
+    position: absolute;
+    width: 205px;
+    height: 16px;
+    left: 43px;
+    top: 68px;
+}
+.btn{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 41px;
+    top: 325px;
+    background-color: green;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+}
