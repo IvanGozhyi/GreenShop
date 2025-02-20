@@ -107,10 +107,11 @@ input{
     height: 450px;
     top: 95px;
     left: 120px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 300px;
+    margin-right: 300px;
     display: inline-block;
     position : absolute;
+    background-color: #EAEAEA;
 
 
 }
