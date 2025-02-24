@@ -17,7 +17,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
-input{
+.input{
     width: 300px;
     height: 40px;
     top: 138px;
@@ -170,4 +170,76 @@ input{
     background-color: green;
     border-radius: 5px 5px 5px 5px;
     color: white;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    width: 840px;
+    height: 1190px;
+    float: right;
+    margin-right: 300px;
+
+}
+.plant-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.plant-card img {
+    width: 250px;
+    height: 250px;
+
+}
+.plant-card .name {
+    font-weight: bold;
+    margin: 10px 0;
+}
+.plant-card .price {
+    color: green;
+}
+
+.categories{
+    width: 310px;
+    height: 774px;
+
+}
+.categories ul {
+    list-style: none;
+    padding: 0;
+}
+.categories ul li {
+        margin-bottom: 10px;
+}
+.div1{
+  display: inline-block;
+    margin-right: 15px;
+}
+.wrapper{
+    background-color: #EAEAEA;
+    height: 774px;
+    width: 310px;
+    margin-left: 150px;
+}
+.ShortBy{
+    width: 838px;
+    height: 23px;
+    margin-left: 900px;
+    margin-top: 170px;
+    margin-bottom: 35px;
+
+}
+.div1 input{
+    width: 103px;
+    height: 16px;
+}
+body{
+    font-family: Cera Pro;
+}
+.footer{
+margin-left: 950px;
+}
+.Sale{
+    margin-left:120px;
 }
