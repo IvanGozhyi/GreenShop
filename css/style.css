@@ -243,3 +243,108 @@ margin-left: 950px;
 .Sale{
     margin-left:120px;
 }
+
+.BlogWrapper{
+    display: flex;
+    text-align: center;
+    margin-top: 200px;
+    justify-content: center;
+    margin-bottom:80px;
+}
+
+.FrameWrapper{
+    display: flex;
+    margin-top: 69px;
+    margin-left: 326px;
+    margin-right: 326px;
+    justify-content: center;
+}
+
+.frame1{
+    width: 586px;
+    height: 302px;
+    text-align: right;
+    margin-right: 14px;
+    background-color:   #FCFCFC;
+    padding-right: 20px;
+
+
+}
+.frame2{
+    width: 586px;
+    height: 302px;
+    text-align: right;
+    margin-left: 14px;
+    background-color:  #FCFCFC;
+    padding-right: 20px;
+
+}
+.plantFrame1{
+    float: left;
+    width:287px;
+    height:292px;
+}
+.plantFrame2{
+    float: left;
+    width:287px;
+    height:292px;
+}
+.CardImg{
+    width: 268px;
+    height: 196px;
+}
+.BlogCard1{
+    width: 268px;
+    height: 362px;
+    background-color:  #FCFCFC;
+    margin-right: 36px;
+    padding-left: 20px;
+}
+.BlogCard2{
+    width: 268px;
+    height: 362px;
+    background-color:  #FCFCFC;
+    margin-right: 36px;
+    padding-left: 20px;
+}
+.BlogCard3{
+     width: 268px;
+     height: 362px;
+    background-color:  #FCFCFC;
+    margin-right: 36px;
+    padding-left: 20px;
+ }
+.BlogCard4{
+      width: 268px;
+      height: 362px;
+      background-color:  #FCFCFC;
+    padding-left: 20px;
+  }
+.BlogMiniTittle{
+    color: green;
+}
+.blogPosts{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+
+}
+.frameButton1{
+    width: 140px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    border-style: none;
+    margin-top: 20px;
+}
+
+.frameButton2{
+    width: 140px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    border-style: none;
+    margin-top: 20px;
+}
