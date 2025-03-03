@@ -419,6 +419,16 @@ margin-left: 950px;
 .choice01{
     width: 125px;
     height: 35px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    margin-top: -150px;
+    margin-left: 60px;
+}
+
+
+.picture:hover .choice01 {
+    opacity: 1;
 }
 
 .picture:hover{
@@ -433,8 +443,84 @@ margin-left: 950px;
     display: inline-block;
     margin-left: 20px;
 }
+.plant02:hover{
+    cursor: pointer;
+}
 @font-face {
     font-family: Cera Pro;
    src: url("/fonts/CeraPro-Bold.woff2") format("woff2");
 }
+
+.navbar {
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    z-index: 1000;
+}
+
+.menu1 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu1 li {
+    position: relative;
+}
+
+.menu1 a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.arrow {
+    transition: transform 0.3s ease;
+}
+
+
+.submenu {
+    display: none;
+    position: absolute;
+    background: #f4f4f4;
+    list-style: none;
+    border: 1px solid #ccc;
+    width: 178px;
+    z-index: 2000;
+
+}
+
+
+.dropdown:hover > .submenu {
+    display: block;
+}
+
+
+.second-level {
+    left: 100%;
+    bottom: -200%;
+}
+
+
+.submenu .dropdown:hover > a .arrow {
+    transform: rotate(180deg);
+}
+
+.dropdown{
+    position: absolute;
+}
+.dropdown a:hover {
+    background-color: green;
+    color: white;
+}
+.menu1 a:hover {
+    border-bottom: 3px solid green;
+}
+
 
