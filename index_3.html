@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div class="menu">
+  <div class="menuElement"><div>All Plants</div></div>
+  <div class="menuElement"><div>New Arrivals</div></div>
+  <div class="menuElement"><div>Sale</div></div>
+  <div class="menuElement">
+    <div class="menuElement1"><label for="Sort">
+      Sort by:
+    </label></div>
+    <div class="menuElement"><input list="Sorting" id="Sort" name="Sort" />
+    </div>
+
+    <datalist id="Sorting">
+      <option value="Default sorting"></option>
+      <option value="Price"></option>
+      <option value="Name"></option>
+    </datalist>
+  </div>
+</div>
+
+
+<div class="pictures">
+<div class="picture">
+  <img src="./img/plant_1.png" alt="plant_1" class="plant01">
+  <span>Barberton Daisy</span>
+  <p><span class="price">$119.00</span></p>
+</div>
+  <div class="picture">
+    <img src="./img/plant_2.png" alt="plant_2" class="plant02">
+    <span>Angel Wing Begonia</span>
+    <p><span class="price">$169.00</span></p>
+    <div class="choice">
+      <img src="./img/items.png" alt="items" class="choice01">
+    </div>
+  </div>
+  <div class="picture">
+    <img src="./img/plant_3.png" alt="plant_3" class="plant03">
+    <span>African Violet</span>
+    <p><span class="price">$199.00</span>
+      <s><span class="discountPrice">$229.00</span></s>
+    </p>
+    <div class="discount">
+      <label class="discountLabel">13% OFF</label>
+    </div>
+  </div>
+
+</div>
+
+
+</body>
+</html>

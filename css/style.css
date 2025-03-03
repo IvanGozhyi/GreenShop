@@ -348,3 +348,85 @@ margin-left: 950px;
     border-style: none;
     margin-top: 20px;
 }
+.plant01{
+    width: 250px;
+    height: 250px;
+
+}
+.plant02{
+    width: 250px;
+    height: 250px;
+
+}
+.plant03{
+    width: 250px;
+    height: 250px;
+
+
+}
+.picture{
+    width: 258px;
+    height: 350px;
+}
+.menu{
+    width: 838px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 350px 490px 35px 490px;
+}
+.menuElement{
+    display: inline-block;
+    margin-left: 20px;
+}
+.menuElement input{
+    width: 103px;
+    height: 16px;
+}
+.discount{
+    color: white;
+    background-color: green;
+    width: 80px;
+    height: 29px;
+    text-align: center;
+    position: relative;
+    margin-top: -300px ;
+    padding-top: 5px;
+}
+.discountPrice {
+    margin-left: 80px;
+    color: lightgray;
+}
+.pictures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.menuElement1{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 250px;
+}
+.price{
+    color: green;
+}
+.choice{
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 60px;
+}
+.choice01{
+    width: 125px;
+    height: 35px;
+}
+
+.picture:hover{
+    cursor: pointer;
+    border-top: 5px solid green;
+}
+
