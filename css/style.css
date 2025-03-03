@@ -351,18 +351,14 @@ margin-left: 950px;
 .plant01{
     width: 250px;
     height: 250px;
-
 }
 .plant02{
     width: 250px;
     height: 250px;
-
 }
 .plant03{
     width: 250px;
     height: 250px;
-
-
 }
 .picture{
     width: 258px;
@@ -427,6 +423,18 @@ margin-left: 950px;
 
 .picture:hover{
     cursor: pointer;
-    border-top: 5px solid green;
+    border-top: 2px solid green;
+}
+.menuElement:hover{
+    cursor: pointer;
+    border-bottom: 2px solid green;
+}
+.menuElement2{
+    display: inline-block;
+    margin-left: 20px;
+}
+@font-face {
+    font-family: Cera Pro;
+   src: url("/fonts/CeraPro-Bold.woff2") format("woff2");
 }
 
