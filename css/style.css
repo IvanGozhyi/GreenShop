@@ -448,7 +448,7 @@ margin-left: 950px;
 }
 @font-face {
     font-family: Cera Pro;
-   src: url("/fonts/CeraPro-Bold.woff2") format("woff2");
+   src: url("./fonts/CeraPro-Bold.woff2") format("woff2");
 }
 
 .navbar {
