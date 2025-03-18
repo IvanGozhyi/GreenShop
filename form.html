@@ -2,48 +2,57 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>Registration</title>
+  <link rel="icon" type="image/png" href="./img/LogSite.png">
   <link rel="stylesheet" href="./css/Reset.css">
   <link rel="stylesheet" href="./css/Normalize.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./fonts/CeraPro-Bold.woff2">
 </head>
 <body>
+<div class="preloader">
+  <div class="spinner"></div>
+</div>
 <form>
-  <h1 class="tittle">Login  I  <span style="color:green;font-family: Cera Pro;">Register</span></h1>
+  <div class="wrapper2">
+  <div class="Header1">
+    <h1 class="tittle"> <button id="MyButton1"><a href="./form_1.html">Login</a></button>  I  <button id="MyButton2"><a href="form.html">Register</a></button></h1>
+  </div>
 
+  <div class="form">
   <p class="sometext">Enter your email and password to register.</p>
 
-  <p><input class="input" type="username" name="username" placeholder="Username" required></p>
+  <input class="input" type="username" name="username" placeholder="Username" required>
 
-  <p><input class="input" type="email" name="email" id="email" placeholder=" Enter your email address"></p>
+  <input class="input" type="email" name="email" id="email" placeholder=" Enter your email address">
 
-  <p><input class="input" type="password" name="password" id="password" placeholder="  Password"></p>
+  <input class="input" type="password" name="password" id="password" placeholder="  Password">
 
-  <p><input class="input" type="password" name="password2" id="password2" placeholder="  Confirm Password"></p>
+  <input class="input" type="password" name="password2" id="password2" placeholder="  Confirm Password">
 
-  <button id="MyButton" style="background-color: #46A358;
-    width: 300px;
-    height: 45px;
-    border-radius: 5px 5px 5px 5px;
-    margin-left: 800px;
-    border: 1px solid #EAEAEA;"><span style="color:white">Register</span></button>
 
-  <p class="footer">------Or register with------</p>
+  <input type="submit" id="MyButton"  value="Register">
 
-  <p>
+    <label class="continue">---Or register with---</label>
+
+
+
+
     <button class="google">
       <img src="./img/channels4_profile.jpg" alt="google" class="signs">
       <span>Continue with Google</span>
     </button>
-  </p>
 
-  <p>
+
+
     <button class="facebook">
       <img src="./img/facebook.png" alt="facebook" class="signs">
       <span>Continue with Google</span>
     </button>
-  </p>
-</form>
+
+  </div>
+  </div>
+  </form>
 </body>
 <script src="index.js"></script>
 </html>

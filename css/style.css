@@ -20,21 +20,17 @@
 .input{
     width: 300px;
     height: 40px;
-    top: 138px;
-    left: 100px;
     border: 1px solid #EAEAEA;
-    margin-left: 800px;
-    margin-right: 800px;
     border-radius: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .footer{
-    font-family: Cera Pro;
     font-size: 13px;
     font-weight: 400;
     line-height: 16px;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    display: flex;
+    justify-content: center;
 }
 .signs{
     width: 20px;
@@ -44,24 +40,23 @@
 .google{
     width: 300px;
     height: 40px;
-    top: 511px;
-    left: 100px;
-    margin-left: 800px;
-    margin-right: 800px;
     border-radius: 5px 5px 5px 5px;
-    background: #EAEAEA;
-    font-family: Cera Pro;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid #EAEAEA;
+    text-align: center;
 }
 .facebook{
     width: 300px;
     height: 40px;
-    top: 511px;
-    left: 100px;
-    margin-left: 800px;
-    margin-right: 800px;
     border-radius: 5px 5px 5px 5px;
-    background: #EAEAEA;
-    font-family: Cera Pro;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid #EAEAEA;
+    text-align: center;
+
 }
 .tittle2{
     font-family:'Cera Pro';
@@ -70,7 +65,6 @@
     margin-top: 300px;
 }
 .GreenShop {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -101,6 +95,12 @@
     padding: 8px 16px;
     border-radius: 5px;
     text-decoration: none;
+    border: none;
+    margin:5px;
+}
+.login a {
+    text-decoration: none;
+    color: white;
 }
 .Banner {
     width: 1200px;
@@ -109,15 +109,13 @@
     left: 120px;
     margin-left: 300px;
     margin-right: 300px;
-    display: inline-block;
-    position : absolute;
+    display:flex;
+    position : relative;
     background-color: #EAEAEA;
 
 
 }
-.hero-text {
-    max-width: 50%;
-}
+
 .Banner h1 {
     position: absolute;
     width: 530px;
@@ -203,6 +201,7 @@
 .categories{
     width: 310px;
     height: 774px;
+    padding: 10px;
 
 }
 .categories ul {
@@ -437,7 +436,7 @@ margin-left: 950px;
 }
 .menuElement:hover{
     cursor: pointer;
-    border-bottom: 2px solid green;
+    box-shadow: 0 0 0 2px green;
 }
 .menuElement2{
     display: inline-block;
@@ -477,15 +476,15 @@ margin-left: 950px;
     display: flex;
     align-items: center;
     gap: 5px;
+    border: 3px solid transparent;
 }
-
 
 .arrow {
     transition: transform 0.3s ease;
 }
 
-
-.submenu {
+.submenu,
+.submenuSecondLevel {
     display: none;
     position: absolute;
     background: #f4f4f4;
@@ -493,34 +492,288 @@ margin-left: 950px;
     border: 1px solid #ccc;
     width: 178px;
     z-index: 2000;
-
+    top: 100%;
+    left: 0;
 }
-
 
 .dropdown:hover > .submenu {
     display: block;
 }
 
-
-.second-level {
-    left: 100%;
-    bottom: -200%;
+.submenu .dropdown {
+    position: relative;
 }
 
+.submenuSecondLevel {
+    left: 100%;
+    top: -310%;
 
+}
+
+.submenu .dropdown:hover > .submenuSecondLevel {
+    display: block;
+}
+
+.submenu a:hover,
+.submenuSecondLevel a:hover {
+    background-color: green;
+    color: white;
+}
+
+.dropdown {
+    border: 3px solid transparent;
+}
+
+.dropdown a:hover {
+    border-bottom: 3px solid green;
+}
+
+.menu1 a:hover {
+    border-bottom: 3px solid green;
+}
 .submenu .dropdown:hover > a .arrow {
     transform: rotate(180deg);
 }
 
-.dropdown{
-    position: absolute;
+.wrapper1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.dropdown a:hover {
+.HCard1{
+    width: 204px;
+    height: 202px;
+}
+.HCard2{
+    width: 204px;
+    height: 202px;
+}
+.HCard3{
+    width: 204px;
+    height: 202px;
+}
+.HCard4{
+    width: 354px;
+    height: 202px;
+}
+.BGElement1{
+    width: 78px;
+    height: 96px;
+}
+.BGElement2{
+    width: 82px;
+    height: 92px;
+}
+.BGElement3{
+    width: 90px;
+    height: 92px;
+}
+.Header{
+    display: flex;
+    width: 1450px;
+    height: 250px;
+    position: relative;
+    gap: 125px;
+    background: #f4f4f4;
+    padding: 10px;
+}
+.ElemCenter{
+    display: flex;
+    width: 1450px;
+    height: 88px;
+    position: relative;
+    background: linear-gradient(90deg, #f4f4f4, lightgreen);
+    padding: 10px;
+    background-clip: border-box;
+    gap: 200px;
+}
+.Footer{
+    display: flex;
+    width: 1450px;
+    height: 236px;
+    position:relative;
+    gap: 175px;
+    background: #f4f4f4;
+    padding: 10px;
+}
+.ECard1{
+    width: 150px;
+    height: 34px;
+    margin-top: 27px;
+}
+.ECard2{
+    width: 250px;
+    height: 44px;
+    margin-top: 25px;
+}
+.ECard3{
+    width: 220px;
+    height: 22px;
+    margin-top: 33px;
+}
+.ECard4{
+    width: 180px;
+    height: 22px;
+    margin-top: 33px;
+}
+.InpContainer{
+    display: flex;
+}
+.InpEmail{
+    width: 354px;
+    height: 38px;
+    flex: 1;
+    border-radius: 7px 0 0 7px;
+    border: solid 1px #ccc;
+
+
+}
+.InpJoin {
+    width: 100px;
+    height: 40px;
     background-color: green;
     color: white;
+    border-radius: 0 7px 7px 0;
+    border: solid 1px green;
 }
-.menu1 a:hover {
+.InpMail{
+    width: 275px;
+    height: 34px;
+    border-radius: 7px 0 0 7px;
+    border: none;
+}
+.plant-card img:hover {
+    cursor: pointer;
+    border-top: 3px solid green;
+}
+.plant-card img{
+    border: 3px solid transparent;
+}
+#MyButton{
+    background-color: #46A358;
+    width: 300px;
+    height: 45px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #EAEAEA;"
+    color: white;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#MyButton1{
+    background-color: white;
+    border: 3px solid transparent;
+}
+#MyButton2{
+    background-color: white;
+    border: 3px solid transparent;
+}
+
+#MyButton1 :hover{
     border-bottom: 3px solid green;
+    cursor: pointer;
+    color:  #46A358;
 }
+#MyButton2 :hover{
+    border-bottom: 3px solid green;
+    cursor: pointer;
+    color: #46A358;
+}
+.Header1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#MyButton1 a{
+    text-decoration: none;
+    color: black;
+}
+#MyButton2 a{
+    text-decoration: none;
+    color: black;
+}
+.continue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+.wrapper2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.HLogin{
+    text-align: center;
+    display: flex;
+}
+.SCart{
+    background: none;
+    border: none;
+    transition: fill 0.3s ease;
+}
+.SSign{
+    background: none;
+    border: none;
+    transition: fill 0.3s ease;
+
+}
+.SCart svg:hover{
+    stroke: green;
+    cursor: pointer;}
+.SSign svg:hover{
+    stroke: green;
+    cursor: pointer;
+}
+.SWrapper{
+    display: flex;
+    gap: 20px;
+}
+.page{
+    background: linear-gradient(180deg, white, #f4f4f4) ;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    border-top-color: green;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
 
 
