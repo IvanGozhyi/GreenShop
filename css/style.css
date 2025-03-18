@@ -773,7 +773,10 @@ margin-left: 950px;
 }
 
 
-
+.Check{
+    display: inline-block;
+    margin: 5px;
+}
 
 
 
